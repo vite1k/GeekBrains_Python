@@ -52,7 +52,7 @@ for item in data:
 
 print(unique_values)
 """
-
+"""
 array = [1, 4, 3, 4]
 count = 0
 
@@ -61,3 +61,4 @@ for i in range(1, len(array)):
         count += 1
 
 print(count)
+"""
