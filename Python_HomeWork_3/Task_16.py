@@ -8,3 +8,12 @@
     3
     -> 1
 """
+N = int(input("Введите количество элементов в массиве: "))
+A = list(map(int, input(f"Введите {N} чисел в массиве через пробел: ").split()))
+X = int(input("Введите число X: "))
+count = 0
+for i in range(N):
+    if A[i] == X:
+        count += 1
+print(list(A))
+print(count)
